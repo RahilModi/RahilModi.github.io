@@ -13,6 +13,7 @@ body{
 nav.navbar{
     background: transparent !important;
     font-family: "Bree Serif";
+    font-size: 1.25em;
 }
 .nav-item a:link, nav a:link {
     color: #fff;
@@ -22,6 +23,16 @@ nav.navbar{
 }
 .nav-item a:hover, nav a:hover {
     color: #fff;
+}
+#navResumeBtn:hover {
+    border-color: #F44336;
+    color: #F44336;
+    background-color: transparent;
+    animation: shakeThatBooty 0.3s linear 1;
+    -webkit-animation: shakeThatBooty 0.3s linear 1;
+    -moz-animation: shakeThatBooty 0.3s linear 1;
+    -o-animation: shakeThatBooty 0.3s linear 1;
+    -ms-animation: shakeThatBooty 0.3s linear 1;
 }
 svg{
     width:80%;
@@ -105,7 +116,7 @@ svg{
     font-size: 50px;
     margin-top: 0;
 }
-.wrapper h3 {
+.wrapper h2 {
     margin-bottom: 0;
 }
 .wrapper span {
@@ -259,14 +270,42 @@ section h2 {
     font-size: 1.50em;
     font-weight: 300;
 }
+#downloadResume{
+    color:white;
+    border-color: white;
+}
 #downloadResume:hover {
-    background-color: #FF6363;
-    color: white;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    border-color: #F44336;
+    color: #F44336;
+    background-color: transparent;
+    animation: shakeThatBooty 0.3s linear 1;
+    -webkit-animation: shakeThatBooty 0.3s linear 1;
+    -moz-animation: shakeThatBooty 0.3s linear 1;
+    -o-animation: shakeThatBooty 0.3s linear 1;
+    -ms-animation: shakeThatBooty 0.3s linear 1;
+}
+@keyframes shakeThatBooty {
+    33% {
+        transform: rotateZ(10deg);
+        -webkit-transform: rotateZ(10deg);
+        -moz-transform: rotateZ(10deg);
+        -o-transform: rotateZ(10deg);
+        -ms-transform: rotateZ(10deg);
+    }
+    67% {
+        transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+        -moz-transform: rotateZ(-10deg);
+        -o-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+    }
+    100% {
+        transform: rotateZ(10deg);
+        -webkit-transform: rotateZ(10deg);
+        -moz-transform: rotateZ(10deg);
+        -o-transform: rotateZ(10deg);
+        -ms-transform: rotateZ(10deg);
+    }
 }
 
 @media(min-width:768px) {
@@ -418,6 +457,7 @@ section h2 {
     font-family: 'Bree Serif', serif;
     font-size: 2em;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 .contact-form {
     padding: 0px 15px 0px 15px;
