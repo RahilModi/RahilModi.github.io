@@ -11,7 +11,9 @@ body{
     color: white;
 }
 nav.navbar{
-    background: transparent !important;
+    /*background: transparent !important;*/
+    background: #191919;
+    color: #fff;
     font-family: "Bree Serif";
     font-size: 1.25em;
 }
@@ -24,15 +26,9 @@ nav.navbar{
 .nav-item a:hover, nav a:hover {
     color: #fff;
 }
-#navResumeBtn:hover {
-    border-color: #F44336;
-    color: #F44336;
+#navResumeBtn{
+    color:#fff;
     background-color: transparent;
-    animation: shakeThatBooty 0.3s linear 1;
-    -webkit-animation: shakeThatBooty 0.3s linear 1;
-    -moz-animation: shakeThatBooty 0.3s linear 1;
-    -o-animation: shakeThatBooty 0.3s linear 1;
-    -ms-animation: shakeThatBooty 0.3s linear 1;
 }
 svg{
     width:80%;
@@ -123,6 +119,7 @@ svg{
     display: inline-block;
     text-align: left;
     font-size: 26px;
+    margin: 10px 0;
 }
 .wrapper img {
     width: 40px;
@@ -226,16 +223,11 @@ section h2 {
     color: #fff;
 }
 
-#introduction .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.sectionAboutMe{
-    display: block;
-    text-transform: uppercase;
+#introduction h1{
     font-family: 'Bree Serif', serif;
-    font-size: 2em;
-    font-weight: 200;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 #introduction img {
     display: block;
@@ -257,7 +249,7 @@ section h2 {
 }
 
 #introduction .intro-text .info {
-    font-size: 1.50em;
+    font-size: 1.75em;
     font-weight: 300;
     font-family: 'Bree Serif', serif;
     margin:5px;
@@ -274,16 +266,7 @@ section h2 {
     color:white;
     border-color: white;
 }
-#downloadResume:hover {
-    border-color: #F44336;
-    color: #F44336;
-    background-color: transparent;
-    animation: shakeThatBooty 0.3s linear 1;
-    -webkit-animation: shakeThatBooty 0.3s linear 1;
-    -moz-animation: shakeThatBooty 0.3s linear 1;
-    -o-animation: shakeThatBooty 0.3s linear 1;
-    -ms-animation: shakeThatBooty 0.3s linear 1;
-}
+
 @keyframes shakeThatBooty {
     33% {
         transform: rotateZ(10deg);
@@ -399,9 +382,71 @@ section h2 {
 .timeline article:last-of-type a:hover {
     color: #95D40D;
 }
+#projects {
+    text-align: center;
+    color: #fff;
+}
+#projects h1 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.portfolio-item{
+    border: 1px solid white;
+    margin: 0 0 5px;
+    right: 0;
+    opacity:0.5;
+}
+.portfolio-item h2{
+    font-family: 'Bree Serif';
+    color:#000;
+    font-size:1.5em;
+    font-weight: 200;
+    padding:5px 0px;
+    border-bottom: 1px solid white;
+}
+.portfolio-item .techs{
+    margin: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+}
 
+.portfolio-item .techUsed{
+    border: 1px solid white;
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.portfolio-item .fa-link{
+    visibility: hidden;
+}
+
+.portfolio-item:hover{
+    opacity: 1;
+}
+.portfolio-item:hover .fa-link{
+    visibility: visible;
+}
 
 #skillsection {
+    margin-top: 50px;
     text-align: center;
     color: #fff;
     font-family: 'Bree Serif', serif;
@@ -411,6 +456,7 @@ section h2 {
     font-family: 'Bree Serif', serif;
     font-size: 3rem;
     font-weight: 300;
+    padding-bottom: 10px;
 }
 .skillsection .skill-column {
     width: 50%;
@@ -440,7 +486,6 @@ section h2 {
     font-weight: 700;
 }
 #contactForm {
-    padding-top: 75px;
     text-align: center;
     color: #fff;
     font-family: 'Bree Serif', serif;
@@ -451,16 +496,19 @@ section h2 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.sectionAboutMe{
+#contactForm h1{
     display: block;
-    text-transform: uppercase;
     font-family: 'Bree Serif', serif;
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: 300;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .contact-form {
     padding: 0px 15px 0px 15px;
+}
+.contact-form input, .contact-form textarea{
+    width: 50%;
+    margin: 0 auto;
 }
 
 
