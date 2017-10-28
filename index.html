@@ -27,13 +27,13 @@
 </head>
 <body>
 <!--<div class="container">-->
-<nav class="navbar fixed-top navbar-expand-lg">
+<nav class="navbar navbar-inverse bg-inverse fixed-top navbar-expand-lg">
     <a class="navbar-brand" href="#">Rahil Modi</a>
-    <button id="navResumeBtn" class="btn btn-md my-2 my-lg hvr-border-fade" style="font-family: 'Bree Serif', sans-serif; color: #fff; border-color: #fff"><i class="fa fa-cloud-download" aria-hidden="true"></i> Resume</button>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav">   
+            <button id="navResumeBtn" class="btn btn-md my-2 my-lg hvr-border-fade" style="font-family: 'Bree Serif', sans-serif; color: #fff; border-color: #fff"><i class="fa fa-cloud-download" aria-hidden="true"></i> Resume</button>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#introduction">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#skillsection">Skills</a>
@@ -78,9 +78,9 @@
                 <img class="img-responsive wow fadeInDown" src="https://lh3.googleusercontent.com/-VetalvdAVZk/VlCMalt2EGI/AAAAAAAAAJY/kO_r5irJBGI/s200-Ic42/boy.png" alt="">
                 <div class="intro-text">
                     <div class="name wow fadeInLeft">Rahil Modi</div>
-                    <div class="intro wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid blanditiis culpa doloremque eligendi enim esse ex id ipsum itaque laborum maxime molestiae, nemo nihil quas quasi ratione suscipit tempora.s </div>
+                    <div class="intro wow fadeInRight">I am an aspiring software developer with the interest in Enterprise Distributed Application Development. I believe in life long learning and keep exploring new ideas and technologies. I was born and raised in Ahmedabad, India. I have an software development industry experience of around 3 years. I love coffee and Table-Tennis.</div>
 
-                    <div class="info wow fadeInRight"><i class="fa fa-birthday-cake" aria-hidden="true"></i>&nbsp;31-December&nbsp;&nbsp;&nbsp;<i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;(510)&nbsp;585-7576&nbsp;&nbsp;&nbsp;<i class="fa fa-skype" aria-hidden="true"></i>&nbsp;rahil3112&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;rmodi10@gmail.com&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;San&nbsp;Jose,&nbsp;CA</div>
+                    <div class="info wow fadeInRight"><i class="fa fa-birthday-cake" aria-hidden="true"></i>&nbsp;31-December&nbsp;&nbsp;&nbsp;<a href="tel:+15105857576"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;(510)&nbsp;585-7576</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-skype" aria-hidden="true"></i>&nbsp;rahil3112&nbsp;&nbsp;&nbsp;<a href="mailto:rmodi10@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;rmodi10@gmail.com</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;San&nbsp;Jose,&nbsp;CA</div>
                 </div>
             </div>
         </div>
@@ -97,17 +97,16 @@
                 <figcaption>San Jose State university</figcaption>
                 <h4>MS in Software Engineering</h4>
                 <h6>Jan 2017 - Dec 2018</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero. Ut ut libero in nibh convallis sollicitudin. Maecenas ante erat, lacinia commodo pretium vel, ultricies eget nibh. Duis et felis lectus. Donec orci libero, auctor eget sodales at, euismod venenatis nibh.
-                </p>
+                
+                    <p>Coursework: <br/> OOP &amp; Data Structures, Operating System, Enterprise Software Platforms, Enterprise Distributed
+                    Systems, Enterprise Application Development, Database Systems, Software Systems
+                    Engineering, Cloud Technologies 
+                    </p>
             </figure>
             <figure>
                 <figcaption>L.D. College of Engineering</figcaption>
                 <h4>BE in Electronics and Communication</h4>
                 <h6>Aug 2009 - Jun 2013</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-                </p>
             </figure>
         </article>
 
@@ -117,108 +116,79 @@
                 <figcaption>Tata Consultancy Services</figcaption>
                 <h4>Systems Engineer</h4>
                 <h6>Mar 2014 - Dec 2016</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
+                <ul>
+                    <li>Designed/implemented 10+ new features and changes in existing functionalities of Automotive Diagnostics Software based on COM technology in C++.</li>
+                    <li>In a team, developed POC for service based application based on REST for current standalone version in Java.</li>
+                    <li>Achieved "TCS On The Spot" award for outstanding performance.</li>
+                </ul>     
             </figure>
             <figure>
                 <figcaption>Innoventa Technocrats</figcaption>
                 <h4>Software Engineer Intern</h4>
                 <h6>Aug 2013 - Jan 2014</h6>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
+                    Developed an eCommerce application having modules such as product, purchase, and users management. Application was developed in Java using J2EE, JSP, Hibernte, Servlet, MySQL, JDBC, etc. 
                 </p>
             </figure>
         </article>
         <br style="clear:both" />
     </div>
 </section>
-<!--Projects--->
-    <div class="container" id="projects">
-        <h1>Projects</h1>
-        <div class="row">
-            <div class="col-md-4 portfolio-item wow zoomIn hvr-outline-out" id="TinyURL">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                </p>
-                <a href="https://github.com/rahilmodi" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="techs">
-                <div class="techUsed">MEAN stack</div>
-                <div class="techUsed">Passport.JS</div>
-                <div class="techUsed">Aws EC2</div>
-                <div class="techUsed">Docker</div>
-                    <div class="techUsed">Docker</div>
-                </div>
-
+<div class="container" id="projects">
+    <h1>Projects</h1>
+    <h4>Some of things I did</h4>
+    <div class="row justify-content-center">
+        <div class="col-md-3  portfolio-item wow zoomIn hvr-bounce-in" id="TinyURL">
+            <h2>Tiny URL</h2>
+            <p>
+                A highly scalable, consistent and fault-tolerant web service created in Spring to shorten the long URLs using Zookeeper and cassandra. Authentication using OAuth2 pattern and Caching using redis to improve response time. 
+            </p>
+            <div class="OpenInGITHUB hvr-wobble-vertical">
+                <a href="https://github.com/parthp17/TinyURL" target="_blank"><i class="fa fa-github"></i> Github</a>
             </div>
-            <div class="col-md-4 portfolio-item wow zoomIn hvr-outline-out">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                </p>
-                <a href="https://github.com/rahilmodi" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="techs">
-                    <div class="techUsed">MEAN stack</div>
-                    <div class="techUsed">Passport.JS</div>
-                    <div class="techUsed">Aws EC2</div>
-                    <div class="techUsed">Docker</div>
-                    <div class="techUsed">Docker</div>
-                </div>
 
+        </div>
+        <div class="col-md-3 offset-md-1 portfolio-item wow zoomIn hvr-bounce-in">
+            <h2>Help Other Web App</h2>
+            <p>
+                A Web application developed for volunteers and volunteering tasks in MEAN stack. A user can post and select a volunteering task of choice. Other Features are realtime/email notification, authentication by passport.js and earned badge sharing on facebook.
+            </p>
+            <div class="OpenInGITHUB hvr-wobble-vertical">
+                    <a href="https://github.com/RahilModi/HelpOther_WebApp" target="_blank"><i class="fa fa-github"></i> Github</a>
             </div>
-            <div class="col-md-4 portfolio-item wow zoomIn hvr-outline-out">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                </p>
-                <a href="https://github.com/rahilmodi" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="techs">
-                    <div class="techUsed">MEAN stack</div>
-                    <div class="techUsed">Passport.JS</div>
-                    <div class="techUsed">Aws EC2</div>
-                    <div class="techUsed">Docker</div>
-                    <div class="techUsed">Docker</div>
-                </div>
 
+        </div>
+        <div class="col-md-3 offset-md-1 portfolio-item wow zoomIn hvr-bounce-in">
+            <h2>Pizza Order System</h2>
+            <p>
+                A pizza order system developed for the Pizza shop using Amazon Lambda and Python. For data persistence used DynamoDB and REST API endpoints using API Gateway.
+            </p>
+            <div class="OpenInGITHUB hvr-wobble-vertical">
+                    <a href="https://github.com/RahilModi/pizza-ordering-system-using-AWS-Lambda" target="_blank"><i class="fa fa-github"></i> Github</a>
             </div>
-            <div class="col-md-4 portfolio-item wow zoomIn hvr-outline-out" >
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                </p>
-                <a href="https://github.com/rahilmodi" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="techs">
-                    <div class="techUsed">MEAN stack</div>
-                    <div class="techUsed">Passport.JS</div>
-                    <div class="techUsed">Aws EC2</div>
-                    <div class="techUsed">Docker</div>
-                    <div class="techUsed">Docker</div>
-                </div>
 
-            </div>
-            <div class="col-md-4 portfolio-item wow zoomIn hvr-outline-out">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
-                </p>
-                <a href="https://github.com/rahilmodi" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <div class="techs">
-                    <div class="techUsed">MEAN stack</div>
-                    <div class="techUsed">Passport.JS</div>
-                    <div class="techUsed">Aws EC2</div>
-                    <div class="techUsed">Docker</div>
-                    <div class="techUsed">Docker</div>
-                </div>
+        </div>
+        <div class="col-md-3 portfolio-item wow zoomIn hvr-bounce-in" >
+            <h2>Face Recognition Web App</h2>
+            <p>
+                A Web application to automate task such as attendance, immigration using face recognition. Application was created in Python(Flask) using OpenCV.
+            </p>
+            <div class="OpenInGITHUB hvr-wobble-vertical">
+                    <a href="https://github.com/RahilModi/FaceRecognition_WebApp" target="_blank"><i class="fa fa-github"></i> Github</a>
             </div>
         </div>
+        <div class="col-md-3 offset-md-1 portfolio-item wow zoomIn hvr-bounce-in" >
+                <h2>Realtime Order Status analysis</h2>
+                <p>
+                        Developed a real-time order status analysis system that tracks/visualizes changes in orders status every second. Technologies used Apache kafka, spark streaming, zeppelin, D3.js.
+                </p>
+                <div class="OpenInGITHUB hvr-wobble-vertical">
+                        <a href="https://github.com/parthp17/Real-Time-Orders-Status-Analysis" target="_blank"><i class="fa fa-github"></i> Github</a>
+                </div>
+            </div>
     </div>
-<!-- begin section -->
+</div>
+
 <section id="skillsection">
 <div class="container">
     <h1>Skills</h1>
@@ -341,7 +311,7 @@
             <span class="active"></span>
             <span class="active"></span>
             <span class="active"></span>
-            <span class="active"></span>
+            <span></span>
             <span></span>
             <span></span>
         </div>
@@ -350,7 +320,7 @@
     </div>
 </div>
 <div class="wrapper fadeInRight">
-    <span style="padding-left:-5px;text-align: center">I &nbsp</span><span class="text1"></span><span class="cursor">|</span>
+    <span style="padding-left:-5px;text-align: center">I &nbsp;</span><span class="text1"></span><span class="cursor">|</span>
 </div>
 </section>
 <section id="contactForm" data-anchor="contact">
@@ -385,7 +355,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="1s">
-                            <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+                            <button type="submit" id="submit" name="submit" class="btn btn-lg" style="margin-top:10px;">SEND MESSAGE</button>
                         </div>
                     </form>
                     <br>

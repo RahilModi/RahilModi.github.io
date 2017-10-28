@@ -10,6 +10,7 @@ body{
     font-family: 'Bree Serif', sans-serif;
     color: white;
 }
+
 nav.navbar{
     /*background: transparent !important;*/
     background: #191919;
@@ -17,6 +18,14 @@ nav.navbar{
     font-family: "Bree Serif";
     font-size: 1.25em;
 }
+
+.navbar-toggler {
+    border-color: white !important;
+} 
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+} 
 .nav-item a:link, nav a:link {
     color: #fff;
 }
@@ -241,19 +250,21 @@ section h2 {
     font-size: 2em;
     font-weight: 700;
 }
-
-#introduction .intro-text .intro {
-    font-size: 1.15em;
+ .intro {
+    font-size: 1.75em;
     font-family: 'Roboto Mono for Powerline';
-    font-weight: 300;
+    font-weight: 150;
 }
 
 #introduction .intro-text .info {
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: 300;
     font-family: 'Bree Serif', serif;
     margin:5px;
     color: #000;
+}
+.info a{
+    color: black;
 }
 
 #introduction .intro-text .cv {
@@ -302,7 +313,7 @@ section h2 {
     }
 
     #introduction .intro-text .intro {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     #introduction .intro-text .info {
@@ -341,8 +352,8 @@ section h2 {
     color: #0090F5;
     font: 400 95% 'Bree Serif';
 }
-.timeline p, .timeline ol {
-    font: 400 95% 'Roboto Mono for Powerline';
+.timeline ul, .timeline p, .timeline ol {
+    font: 200 95% 'Bree Serif';
     padding: 3px 0 20px 0;
     color: #fff;
     text-align: justify;
@@ -391,11 +402,20 @@ section h2 {
     font-family: 'Bree Serif', serif;
     font-size: 3rem;
     font-weight: 300;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
+
+#projects h4 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+    margin: 0 0 20px 0;
+}
+
 .portfolio-item{
     border: 1px solid white;
-    margin: 0 0 5px;
+    margin: 0 0 40px 0;
     right: 0;
     opacity:0.5;
 }
@@ -407,42 +427,24 @@ section h2 {
     padding:5px 0px;
     border-bottom: 1px solid white;
 }
-.portfolio-item .techs{
-    margin: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-pack: center;
-    justify-content: space-around;
-}
 
-.portfolio-item .techUsed{
+.portfolio-item .OpenInGITHUB{
     border: 1px solid white;
-    float: left;
-    margin: 2px;
-    padding: 2px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.portfolio-item .fa-link{
-    visibility: hidden;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    visibility:hidden;
 }
 
 .portfolio-item:hover{
     opacity: 1;
 }
-.portfolio-item:hover .fa-link{
+.portfolio-item:hover .OpenInGITHUB{
     visibility: visible;
+}
+
+.portfolio-item:hover .OpenInGITHUB a{
+    color:white;
 }
 
 #skillsection {
