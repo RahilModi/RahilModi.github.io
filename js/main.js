@@ -2,10 +2,10 @@ $(function() {
     var message = {
 
         message: [
-            ' a Developer',
-            ' a Programmer',
-            ' an Engineer',
-            ' looking for an intenship'
+            ' a Developer.',
+            ' a Programmer.',
+            ' an Engineer.',
+            ' looking for an intenship.'
         ],
         counterS: 0,
         counterL: 0,
@@ -49,15 +49,14 @@ $(function() {
     var msg = {
 
         message: [
-            ' work with HTML and CSS.',
-            ' work with React and Redux.',
-            ' work with AngularJS.',
-            ' work with Node.JS and MongoDB.',
-            ' use Git.',
-            ' work with Docker and AWS.',
             ' love Java.',
             ' play with Python also.',
-            ' do work on Linux.'
+            ' work with React and Redux.',
+            ' work with Node.JS and MongoDB.',
+            ' work with AngularJS.',
+            ' use Git.',
+            ' work with Docker and AWS.',
+            ' work in Linux evironment.'
         ],
         counterS: 0,
         counterL: 0,
